@@ -72,7 +72,7 @@ int main()
     int val, choice;
     char ans = 'y';
 
-    //CREATING A LINKED LIST FIRST
+    // CREATING A LINKED LIST FIRST
     while (ans == 'y' || ans == 'Y')
     {
         printf("Enter a number : ");
@@ -86,7 +86,7 @@ int main()
     display(tail);
     ans = 'y';
 
-    //DELETION PROCESS
+    // DELETION PROCESS
     while (ans == 'y' || ans == 'Y')
     {
         printf("\nEnter 1 to delete : ");
